@@ -1,3 +1,5 @@
-def call(String appName) {
-    echo "Hello! Welcome to ${appName} Jenkins Pipeline"
+def call(String appName, String environment) {
+    echo "Application: ${appName}"
+    echo "Environment: ${environment}"
+    echo "Deploying ${appName} to ${environment}"
 }
