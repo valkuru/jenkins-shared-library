@@ -1,3 +1,3 @@
-def call() {
-    echo "Hello! Welcome to Jenkins Shared Library"
+def call(String appName) {
+    echo "Hello! Welcome to ${appName} Jenkins Pipeline"
 }
